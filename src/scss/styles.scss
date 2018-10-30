@@ -1,8 +1,4 @@
-$font-main: sans-serif;
-$font-base: 16px;
+@import 'config/variables';
+@import 'config/colors';
 
-html {
-    font-size: $font-main;
-    font-size: $font-base;
-    background-color: orange;
-}
+@import 'base/base';

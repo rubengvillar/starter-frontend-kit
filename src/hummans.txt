@@ -1,0 +1,14 @@
+/* */
+
+/* TEAM */
+    Design and Programing: Ruben G. Villar
+    Contact: rubengvillardesign [at] gmail.com
+    Twitter: @rubengvillar
+    From: Mar del Plata City, Argentina
+
+/* SITE */
+    Last update: 2018/10/29
+    Language: Español/English
+    Standars: HTML, CSS, JavaScript, NodeJS, NPM
+    Components: 
+    Software: Visual Studio Code, Chrome, Windows 10

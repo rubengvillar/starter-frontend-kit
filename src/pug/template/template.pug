@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title #{title} - inicio
+        // build:css css/styles.min.css
+        each css in files.CSS
+            link(rel="stylesheet", href=`../${css}`)
+        // endbuild
+    body
+        block body
+        // build:js js/scrips.min.js
+        each js in files.JS
+            script(src=`../${js}`)
+        // endbuild

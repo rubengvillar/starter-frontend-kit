@@ -29,7 +29,7 @@
     "watch:html": "onchange \"./build/*.html\" -- npm run html",
     "watch:prod": "shell-exec --colored-output \"npm run serve\" \"npm run watch:css\" \"npm run watch:js\" \"npm run watch:html\"",
     "start": "npm run build:prod && npm run watch:prod",
-    "postinstall": "npm start"
+    "postinstall": "npm run build:dev"
   },
   "author": "Ruben G. Villar <contacto@rubengvillar> (https://rubengvillar.com/)",
   "license": "MIT",
@@ -37,7 +37,7 @@
     "@babel/core": "7.1.2",
     "@babel/preset-env": "7.1.0",
     "browser-sync": "2.26.3",
-    "gulp": "3.9.1",
+    "gulp": "4.0.0",
     "gulp-autoprefixer": "6.0.0",
     "gulp-babel": "8.0.0",
     "gulp-clean-css": "3.10.0",
@@ -45,7 +45,7 @@
     "gulp-concat": "2.6.1",
     "gulp-gm": "0.0.9",
     "gulp-htmlmin": "5.0.1",
-    "gulp-imagemin": "4.1.0",
+    "gulp-imagemin": "5.0.3",
     "gulp-postcss": "8.0.0",
     "gulp-pug": "4.0.1",
     "gulp-sass": "4.0.2",
@@ -54,10 +54,9 @@
     "gulp-uglify": "3.0.1",
     "gulp-uncss": "1.0.6",
     "gulp-useref": "3.1.6",
-    "gulp-webp": "3.0.0",
+    "gulp-webp": "4.0.0",
     "imagemin-pngquant": "6.0.0",
     "onchange": "5.0.2",
-    "parallelshell": "3.0.2",
     "shell-executor": "6.0.1"
   }
 }
